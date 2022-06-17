@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in(polegada), px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em 
+            */
+            font-size: 1em; 
+            /* lighter normal bold bolder */
+        }
+        h1{
+            /*font-family: 'work sans', sans-serif;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;*/
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'work sans', sans-serif;;
+        }
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum nisi sunt doloribus, sapiente numquam a veniam iste, quas fugit quam optio, quibusdam ea commodi eius exercitationem odit voluptatibus asperiores amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit minus, ducimus ab blanditiis repudiandae corporis nisi non quibusdam aut nam accusamus, ullam natus soluta, libero possimus cupiditate dignissimos optio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam exercitationem praesentium. Ex corrupti explicabo repellat cumque vero quas amet mollitia, laudantium soluta voluptate alias facilis adipisci inventore quae facere?</p>
+    <h2>subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, vero! Iure, sed accusantium placeat dolore quod repudiandae odit quo repellat, inventore reiciendis cumque nihil numquam, corporis maiores! Cupiditate, asperiores nobis?</p>
+</body>
+</html>
