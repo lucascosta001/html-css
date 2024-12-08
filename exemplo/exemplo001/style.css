@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.space{ 
+    display: flex;
+    margin: 70px;
+}
+
+.dot{
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    border-radius: 50%;
+    background-color: #FFF;
+    opacity: .2;
+    animation: jump .6s var(--delay) linear infinite;
+}
+
+@keyframes jump {
+    0% {
+        opacity: .2;
+        transform: translateY(0px);
+    }
+
+    33%{
+        opacity: .6;
+        transform: translateY(-9px);
+    }
+
+    66%{
+        opacity: .2;
+        transform: translateY(0px);
+    }
+}
+
+.dot:nth-child(1){
+    --delay: 0ms;
+}
+
+.dot:nth-child(2){
+    --delay: 100ms;
+}
+
+.dot:nth-child(3){
+    --delay: 200ms;
+}
