@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+
+}
+
+section{
+    padding: 15px;
+    display: flex                           
+                                          ;
+    justify-content: center;
+}
+
+.result{ 
+    display: block;
+    margin: 10px;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
