@@ -10,12 +10,67 @@ header{
     text-align: center;
 }
 
+#instagram{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/87/87390.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#github{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#home{
+    background-image: url('https://lucascosta001.github.io/meu-portifolio/imagens/favicon.ico');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li img {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+nav a {
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 h1{
     font-size: 2em;
     margin: 2vw;
 }
 
-p{
+section>p, header>p{
     font-size: 1.2em;
     margin: 2vw;
 }
@@ -29,7 +84,6 @@ section{
 }
 
 .secelementos{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -60,68 +114,8 @@ footer{
     background-color: #333;
     color: white;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.2em;
-}
-
-div.contato{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 2vw;
-}
-
-#instagram{
-    background-image: url('https://cdn-icons-png.flaticon.com/512/87/87390.png');
-    background-size: 30px;
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
-}
-
-#github{
-    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
-    background-size: 30px;
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
-}
-
-#home{
-    background-image: url('https://lucascosta001.github.io/meu-portifolio/imagens/favicon.ico');
-    background-size: 30px;
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 40px;
-}
-
-nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li img {
-    height: 20px;
-    width: auto;
-    vertical-align: middle;
-    margin-left: 6px;
-}
-
-nav a {
-    color: white;
-}
-
-a:hover{
-    color: white;
-    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
 }
