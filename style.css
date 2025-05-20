@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin: 2vw;
+}
+
+p{
+    font-size: 1.2em;
+    margin: 2vw;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+}
+
+.secelementos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+div.elementos{
+    min-width: 120px;
+    max-width: 280px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.um{
+    background-color: #696969c9;
+}
+
+footer{
+    display: flex;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+div.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#instagram{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/87/87390.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+#github{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li img {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+nav a {
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
