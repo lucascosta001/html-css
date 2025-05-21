@@ -6,7 +6,6 @@
 header{
     background-color: #333;
     color: white;
-    padding: 10px;
     text-align: center;
 }
 
@@ -57,7 +56,21 @@ nav ul li img {
 }
 
 nav a {
-    color: white;
+    color: white; 
+    text-decoration: none;
+}
+
+nav li{
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+nav li:hover{
+    background-color: #696969c9;
 }
 
 a:hover{
