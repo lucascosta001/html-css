@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+}
