@@ -122,10 +122,8 @@ section{
     gap: 20px;
 }
 
-div.elementos{
-    min-width: 120px;
-    max-width: 280px;
-    height: 100px;
+.elementos{
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
