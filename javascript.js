@@ -1,4 +1,4 @@
-let arq = document.getElementsByClassName("secelementos");
+// let arq = document.getElementsByClassName("secelementos");
 
 // pasta principal
 // pegar cada aquivo, porém não são todos que estão listados como index.html, logo vou precisar de um arquivo que busque pelo tipo de arquivo, que é o .html
