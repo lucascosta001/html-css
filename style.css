@@ -113,13 +113,16 @@ h2{
 }
 
 p{
-    display: block;
     text-align: center;
-    margin: 3dvw;
+    margin: 3dvw 0 5dvw 0;
     font-size: 1.2em;
+    width: 70dvw;
 }
 
 .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1dvw 0 3dvw 0;
 }
 
