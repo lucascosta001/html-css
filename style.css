@@ -119,8 +119,8 @@ p{
     font-size: 1.2em;
 }
 
-section{
-    padding: 1dvw;
+.section{
+    padding: 1dvw 0 3dvw 0;
 }
 
 .secelementos{
@@ -132,7 +132,7 @@ section{
 }
 
 .um{
-    padding: 1dvw;
+    padding: 1dvw 0 3dvw 0;
     background-color: #696969c9;
 }
 
