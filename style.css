@@ -9,10 +9,13 @@ body, html{
 }
 
 header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 h1{
@@ -21,15 +24,17 @@ h1{
     padding: 20px 0; /* Opcional: adiciona um espaçamento interno apenas acima/abaixo */
 }
 
-p{
+p.header{
     font-size: 1.2em;
-    margin: 2vw;
+    margin: 2dvw;
+    width: 50dvw;
 }
 
 div.contato{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2vw;
 }
 
@@ -68,6 +73,7 @@ nav {
     align-items: center;
     gap: 40px;
     height: 30px;
+    margin-top: 2dvw;
 }
 
 nav ul {
@@ -103,18 +109,21 @@ a:hover{
 
 h2{
     text-align: center;
+    margin: 2.5dvw;
 }
-/* 
-section{
-    padding: 20px;
-} */
 
-#seção1, #seção2, #seção3{
-    padding: 20px;
+p{
+    display: block;
+    text-align: center;
+    margin: 3dvw;
+    font-size: 1.2em;
+}
+
+section{
+    padding: 1dvw;
 }
 
 .secelementos{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -122,11 +131,17 @@ section{
     gap: 20px;
 }
 
+.um{
+    padding: 1dvw;
+    background-color: #696969c9;
+}
+
 .elementos{
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    width: 400px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -134,15 +149,30 @@ section{
     background: #f9f9f9;
 }
 
-.um{
-    background-color: #696969c9;
+.secelementos>div>a{
+    display: flex;
+    direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.secelementos>iframe{
+    width: 400px;
+    height: 300px;
+    border: none;
 }
 
 footer{
     display: flex;
-    background-color: #333;
-    color: white;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1.2em;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+}
+
+footer p{
+    margin: 0;
+    padding: 1dvw;
 }
