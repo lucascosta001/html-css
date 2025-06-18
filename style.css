@@ -93,13 +93,12 @@ nav ul li img {
 nav a {
     color: white;
     text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
 }
 
 nav a:hover{
     background-color: #797979;
-    border-radius: 5px;
-    padding: 6px;
-    text-decoration: none;
 }
 
 a:hover{
